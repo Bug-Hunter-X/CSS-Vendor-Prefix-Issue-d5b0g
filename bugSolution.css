@@ -1,0 +1,16 @@
+/* Corrected CSS - bugSolution.css */
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: lightblue;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: navy;
+  border-radius: 10px; /* No need for -webkit- or other prefixes */
+}
+/* No more vendor prefixes needed for modern browser support*/
